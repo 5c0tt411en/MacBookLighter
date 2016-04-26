@@ -2072,7 +2072,7 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>977E7DDA94E88633BE025A78</key>
+			<key>DAA70A50F276525E63A25DC6</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2081,135 +2081,18 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>kiss_fftr.h</string>
+				<string>fft.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxFft/libs/kiss/kiss_fftr.h</string>
+				<string>../../../addons/ofxFFT/libs/fft.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>6DB9E3911BA6216FE1F0E91C</key>
-			<dict>
-				<key>fileRef</key>
-				<string>DACFE8C08D7F4619176E65D7</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>DACFE8C08D7F4619176E65D7</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.c</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>kiss_fftr.c</string>
-				<key>path</key>
-				<string>../../../addons/ofxFft/libs/kiss/kiss_fftr.c</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>A6F65D3430FD7E893FFF58F3</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>kiss_fft.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxFft/libs/kiss/kiss_fft.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>0686C38EE993C67B96002FA1</key>
-			<dict>
-				<key>fileRef</key>
-				<string>4B053B6F1252BCFCFF0F59AC</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>4B053B6F1252BCFCFF0F59AC</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.c</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>kiss_fft.c</string>
-				<key>path</key>
-				<string>../../../addons/ofxFft/libs/kiss/kiss_fft.c</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>A2C4D2900B6384FDE5E77208</key>
+			<key>1B64B7957A22C4BDA1592DD4</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>1CBD6F883000C78087DD5738</string>
-					<string>4B053B6F1252BCFCFF0F59AC</string>
-					<string>A6F65D3430FD7E893FFF58F3</string>
-					<string>DACFE8C08D7F4619176E65D7</string>
-					<string>977E7DDA94E88633BE025A78</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>kiss</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>1CBD6F883000C78087DD5738</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>_kiss_fft_guts.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxFft/libs/kiss/_kiss_fft_guts.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>F2022DF37286FECB8B9BA5B2</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>2D0C0AA4436B2A16530BA991</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>include</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>A0535D33570F65575182C18F</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>F2022DF37286FECB8B9BA5B2</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>fftw</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>72C89FAFAC11F96856792042</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>A0535D33570F65575182C18F</string>
-					<string>A2C4D2900B6384FDE5E77208</string>
+					<string>39467E552EF13540BB002F9E</string>
+					<string>DAA70A50F276525E63A25DC6</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2218,44 +2101,14 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>2D0C0AA4436B2A16530BA991</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>fftw3.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxFft/libs/fftw/include/fftw3.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>9A2FCCF1ABF23081D2CD9D5F</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxProcessFFT.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxFft/src/ofxProcessFFT.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>47741AD4D543009E4DF29CEA</key>
+			<key>39836E76C1045ECC8CD71511</key>
 			<dict>
 				<key>fileRef</key>
-				<string>971B530AB93ACC5065D9489E</string>
+				<string>39467E552EF13540BB002F9E</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>971B530AB93ACC5065D9489E</key>
+			<key>39467E552EF13540BB002F9E</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -2264,13 +2117,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>ofxProcessFFT.cpp</string>
+				<string>fft.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxFft/src/ofxProcessFFT.cpp</string>
+				<string>../../../addons/ofxFFT/libs/fft.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D8952DEFF3CE56AC1009A996</key>
+			<key>E46178EF30865CB0CE4D372D</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2279,20 +2132,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>ofxFftw.h</string>
+				<string>ofxFFTLive.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxFft/src/ofxFftw.h</string>
+				<string>../../../addons/ofxFFT/src/ofxFFTLive.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>29938E05AF78B3DF7A591187</key>
+			<key>D75776B1465EF369BB2B19CD</key>
 			<dict>
 				<key>fileRef</key>
-				<string>5F353204A917F4B2BCEEABE6</string>
+				<string>803F1723C773514ECB0B2603</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>5F353204A917F4B2BCEEABE6</key>
+			<key>803F1723C773514ECB0B2603</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -2301,13 +2154,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>ofxFftw.cpp</string>
+				<string>ofxFFTLive.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxFft/src/ofxFftw.cpp</string>
+				<string>../../../addons/ofxFFT/src/ofxFFTLive.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>7D3BE1A2ADAFC399E7B20A91</key>
+			<key>35EF1E1D1CB35BF257AC18FC</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2316,20 +2169,20 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>ofxFftBasic.h</string>
+				<string>ofxFFTFile.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxFft/src/ofxFftBasic.h</string>
+				<string>../../../addons/ofxFFT/src/ofxFFTFile.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>007F713E619B81D821BEA319</key>
+			<key>34B0EA6FA9243CC336D4713A</key>
 			<dict>
 				<key>fileRef</key>
-				<string>CE67198F2891A8FFEA3686E6</string>
+				<string>2C02A0B9E263EF399108390C</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>CE67198F2891A8FFEA3686E6</key>
+			<key>2C02A0B9E263EF399108390C</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -2338,13 +2191,13 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>ofxFftBasic.cpp</string>
+				<string>ofxFFTFile.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxFft/src/ofxFftBasic.cpp</string>
+				<string>../../../addons/ofxFFT/src/ofxFFTFile.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>B36431C04C788FEDB1ECD8FC</key>
+			<key>FD58BD542BF2786A904B7AC9</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -2353,63 +2206,22 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>ofxFft.h</string>
+				<string>ofxFFTBase.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxFft/src/ofxFft.h</string>
+				<string>../../../addons/ofxFFT/src/ofxFFTBase.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>D409288D137DB82107887FFD</key>
-			<dict>
-				<key>fileRef</key>
-				<string>32CA89CD22339F4F9433CAF6</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>32CA89CD22339F4F9433CAF6</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxFft.cpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxFft/src/ofxFft.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>CAB67BC7A1CC020FDAC5381B</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>30</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxEasyFft.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxFft/src/ofxEasyFft.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>14D2E3EE0233F84B1B324DD9</key>
+			<key>0A2E5BCC3F86CB447BAEAEB2</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>67BFC7F21E824F5A7FAC65E0</string>
-					<string>CAB67BC7A1CC020FDAC5381B</string>
-					<string>32CA89CD22339F4F9433CAF6</string>
-					<string>B36431C04C788FEDB1ECD8FC</string>
-					<string>CE67198F2891A8FFEA3686E6</string>
-					<string>7D3BE1A2ADAFC399E7B20A91</string>
-					<string>5F353204A917F4B2BCEEABE6</string>
-					<string>D8952DEFF3CE56AC1009A996</string>
-					<string>971B530AB93ACC5065D9489E</string>
-					<string>9A2FCCF1ABF23081D2CD9D5F</string>
+					<string>B8722F32B945F2D45559A533</string>
+					<string>FD58BD542BF2786A904B7AC9</string>
+					<string>2C02A0B9E263EF399108390C</string>
+					<string>35EF1E1D1CB35BF257AC18FC</string>
+					<string>803F1723C773514ECB0B2603</string>
+					<string>E46178EF30865CB0CE4D372D</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -2418,28 +2230,28 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>BBC2B4228932C2AACC6701CF</key>
+			<key>38D6D30992FE734203F60492</key>
 			<dict>
 				<key>children</key>
 				<array>
-					<string>14D2E3EE0233F84B1B324DD9</string>
-					<string>72C89FAFAC11F96856792042</string>
+					<string>0A2E5BCC3F86CB447BAEAEB2</string>
+					<string>1B64B7957A22C4BDA1592DD4</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
 				<key>name</key>
-				<string>ofxFft</string>
+				<string>ofxFFT</string>
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>7A61C288AE942E5885881232</key>
+			<key>1711FD836260FE025DDDF8C9</key>
 			<dict>
 				<key>fileRef</key>
-				<string>67BFC7F21E824F5A7FAC65E0</string>
+				<string>B8722F32B945F2D45559A533</string>
 				<key>isa</key>
 				<string>PBXBuildFile</string>
 			</dict>
-			<key>67BFC7F21E824F5A7FAC65E0</key>
+			<key>B8722F32B945F2D45559A533</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.cpp.cpp</string>
@@ -2448,9 +2260,9 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>name</key>
-				<string>ofxEasyFft.cpp</string>
+				<string>ofxFFTBase.cpp</string>
 				<key>path</key>
-				<string>../../../addons/ofxFft/src/ofxEasyFft.cpp</string>
+				<string>../../../addons/ofxFFT/src/ofxFFTBase.cpp</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -2534,7 +2346,7 @@
 				<key>children</key>
 				<array>
 					<string>7B5959A516E0FEB0978BA85E</string>
-					<string>BBC2B4228932C2AACC6701CF</string>
+					<string>38D6D30992FE734203F60492</string>
 					<string>B8CEEA69B3F96FF1AFC9281B</string>
 					<string>A492CE86424AB8905550BFD8</string>
 					<string>1F4FB5C423662B96ADFDCC0B</string>
@@ -2692,12 +2504,8 @@
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>../../../addons/ofxDisplayBrightness/src</string>
-						<string>../../../addons/ofxFft/libs</string>
-						<string>../../../addons/ofxFft/libs/fftw</string>
-						<string>../../../addons/ofxFft/libs/fftw/include</string>
-						<string>../../../addons/ofxFft/libs/fftw/lib</string>
-						<string>../../../addons/ofxFft/libs/kiss</string>
-						<string>../../../addons/ofxFft/src</string>
+						<string>../../../addons/ofxFFT/libs</string>
+						<string>../../../addons/ofxFFT/src</string>
 						<string>../../../addons/ofxKeyboardBacklightBrightness/src</string>
 						<string>../../../addons/ofxUI/src</string>
 						<string>../../../addons/ofxXmlSettings/libs</string>
@@ -2760,12 +2568,8 @@
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>../../../addons/ofxDisplayBrightness/src</string>
-						<string>../../../addons/ofxFft/libs</string>
-						<string>../../../addons/ofxFft/libs/fftw</string>
-						<string>../../../addons/ofxFft/libs/fftw/include</string>
-						<string>../../../addons/ofxFft/libs/fftw/lib</string>
-						<string>../../../addons/ofxFft/libs/kiss</string>
-						<string>../../../addons/ofxFft/src</string>
+						<string>../../../addons/ofxFFT/libs</string>
+						<string>../../../addons/ofxFFT/src</string>
 						<string>../../../addons/ofxKeyboardBacklightBrightness/src</string>
 						<string>../../../addons/ofxUI/src</string>
 						<string>../../../addons/ofxXmlSettings/libs</string>
@@ -2827,13 +2631,10 @@
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
 					<string>BB2CCC9CAAACA06FCAD1127D</string>
-					<string>7A61C288AE942E5885881232</string>
-					<string>D409288D137DB82107887FFD</string>
-					<string>007F713E619B81D821BEA319</string>
-					<string>29938E05AF78B3DF7A591187</string>
-					<string>47741AD4D543009E4DF29CEA</string>
-					<string>0686C38EE993C67B96002FA1</string>
-					<string>6DB9E3911BA6216FE1F0E91C</string>
+					<string>1711FD836260FE025DDDF8C9</string>
+					<string>34B0EA6FA9243CC336D4713A</string>
+					<string>D75776B1465EF369BB2B19CD</string>
+					<string>39836E76C1045ECC8CD71511</string>
 					<string>FC0B18E2F560B50929B2E72C</string>
 					<string>9F5C6DD965B4F3A6DB5B88F8</string>
 					<string>4B3ED367CA852D522E2EE996</string>
@@ -2922,7 +2723,7 @@
 				<key>isa</key>
 				<string>PBXNativeTarget</string>
 				<key>name</key>
-				<string>MacbookLighter</string>
+				<string>MacBookLighter</string>
 				<key>productName</key>
 				<string>myOFApp</string>
 				<key>productReference</key>
@@ -2939,7 +2740,7 @@
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>path</key>
-				<string>MacbookLighterDebug.app</string>
+				<string>MacBookLighterDebug.app</string>
 				<key>sourceTree</key>
 				<string>BUILT_PRODUCTS_DIR</string>
 			</dict>
@@ -2967,12 +2768,8 @@
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>../../../addons/ofxDisplayBrightness/src</string>
-						<string>../../../addons/ofxFft/libs</string>
-						<string>../../../addons/ofxFft/libs/fftw</string>
-						<string>../../../addons/ofxFft/libs/fftw/include</string>
-						<string>../../../addons/ofxFft/libs/fftw/lib</string>
-						<string>../../../addons/ofxFft/libs/kiss</string>
-						<string>../../../addons/ofxFft/src</string>
+						<string>../../../addons/ofxFFT/libs</string>
+						<string>../../../addons/ofxFFT/src</string>
 						<string>../../../addons/ofxKeyboardBacklightBrightness/src</string>
 						<string>../../../addons/ofxUI/src</string>
 						<string>../../../addons/ofxXmlSettings/libs</string>
@@ -3025,12 +2822,8 @@
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>../../../addons/ofxDisplayBrightness/src</string>
-						<string>../../../addons/ofxFft/libs</string>
-						<string>../../../addons/ofxFft/libs/fftw</string>
-						<string>../../../addons/ofxFft/libs/fftw/include</string>
-						<string>../../../addons/ofxFft/libs/fftw/lib</string>
-						<string>../../../addons/ofxFft/libs/kiss</string>
-						<string>../../../addons/ofxFft/src</string>
+						<string>../../../addons/ofxFFT/libs</string>
+						<string>../../../addons/ofxFFT/src</string>
 						<string>../../../addons/ofxKeyboardBacklightBrightness/src</string>
 						<string>../../../addons/ofxUI/src</string>
 						<string>../../../addons/ofxXmlSettings/libs</string>

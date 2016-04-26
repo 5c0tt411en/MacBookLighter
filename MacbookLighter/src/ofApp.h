@@ -5,7 +5,7 @@
 #include "ofxXmlSettings.h"
 #include "ofxDisplayBrightness.h"
 #include "ofxKeyboardBacklightBrightness.h"
-#include "ofxFft.h"
+#include "ofxFFTLive.h"
 
 class ofApp : public ofBaseApp{
     
@@ -44,5 +44,9 @@ public:
     float bLevel;
     
     //fft
-
+    ofxFFTLive fftLive;
+    float   audioThreshold,
+            audioPeakDecay,
+            audioMaxDecay,
+            audioMirror;
 };

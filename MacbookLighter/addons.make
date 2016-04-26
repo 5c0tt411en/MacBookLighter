@@ -1,5 +1,5 @@
 ofxDisplayBrightness
-ofxFft
+ofxFFT
 ofxKeyboardBacklightBrightness
 ofxUI
 ofxXmlSettings
