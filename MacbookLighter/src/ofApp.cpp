@@ -33,14 +33,12 @@ void ofApp::update(){
 void ofApp::draw(){
     db.setBrightness(bLevel);
     kbb.setBrightness(ikbLevel);
-
 }
 
-void ofApp::exit()
-{
+void ofApp::exit(){
     //xmlsettings
     settings.setValue("settings:ui1", bLevel);
-    settings.setValue("settings:ui2", kbLevel);
+    settings.setValue("settings:ui2", kbLevel);1
     settings.saveFile("settings.xml");
     
     //UI

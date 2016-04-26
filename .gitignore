@@ -7,6 +7,7 @@
 *.app*
 *.DS_*
 ._*.*
+*.xml
 
 .svn/
 obj/
