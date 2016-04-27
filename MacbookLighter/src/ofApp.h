@@ -25,9 +25,10 @@ public:
     void windowResized(int w, int h);
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
+    void drawTargetFreq(string targetName, int freq, ofColor &rgb);
     
     //UI
-    ofxUISuperCanvas *gui0;
+    ofxUISuperCanvas *guiDB, *guiKBB, *guiAUDIO;
     void guiEvent(ofxUIEventArgs &e);
     void exit();
     
@@ -36,17 +37,27 @@ public:
     
     //keyboard backlight brightness
     ofxKeyboardBacklightBrightness kbb;
-    float kbLevel;
+    float kbbLevel;
     int ikbLevel;
     
     //display brightness
     ofxDisplayBrightness db;
-    float bLevel;
+    float dbLevel;
     
     //fft
-    ofxFFTLive fftLive;
+    ofxFFTLive fft;
     float   audioThreshold,
             audioPeakDecay,
-            audioMaxDecay,
-            audioMirror;
+            audioMaxDecay;
+    bool    audioReactiveDB, audioReactiveKBB;
+    int     dbTargetFreq,
+            kbbTargetFreq,
+            guiWidth = 150;
+    const int fftW = OFX_FFT_WIDTH,
+              fftH = OFX_FFT_HEIGHT,
+              fftX = (ofGetWidth() - fftW) / 2,
+              fftY = ofGetHeight() - fftH - 10,
+              guiW = 174,
+              guiH = 150;
+    ofColor dbColor, kbbColor;
 };
