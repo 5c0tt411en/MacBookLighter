@@ -20,6 +20,8 @@ MacBook display and keyboard backlight controller (with sound!) based on openFra
 
 Audio sthreshould, audio peak decay, audio max decay can be controlled at Audio setting sliders as well.
 
+![UI](https://raw.githubusercontent.com/5c0tt411en/MacBookLighter/master/UI.png)
+
 ## Demo video
 [youtube demo video link](https://youtu.be/64Zzr_8yLi8)
 
