@@ -29,7 +29,7 @@ public:
     
     //UI
     ofxUISuperCanvas *guiDB, *guiKBB, *guiAUDIO;
-    void guiEvent(ofxUIEventArgs &e);
+    ofxUITextInput *textInputDB, *textInputKBB;
     void exit();
     
     //xmlsettings
@@ -48,10 +48,11 @@ public:
     ofxFFTLive fft;
     float   audioThreshold,
             audioPeakDecay,
-            audioMaxDecay;
+            audioMaxDecay,
+            dbMin, kbbMin,
+            dbMax, kbbMax;
     bool    audioReactiveDB, audioReactiveKBB;
-    int     dbTargetFreq,
-            kbbTargetFreq,
+    int     dbTargetFreq, kbbTargetFreq,
             guiWidth = 150;
     const int fftW = OFX_FFT_WIDTH,
               fftH = OFX_FFT_HEIGHT,
@@ -60,4 +61,5 @@ public:
               guiW = 174,
               guiH = 150;
     ofColor dbColor, kbbColor;
+    string freqTextDB, freqTextKBB;
 };
