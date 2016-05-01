@@ -23,7 +23,7 @@ Audio sthreshould, audio peak decay, audio max decay can be controlled at Audio 
 ![UI](https://raw.githubusercontent.com/5c0tt411en/MacBookLighter/master/UI.png)
 
 ## Demo video
-[youtube demo video link](https://youtu.be/64Zzr_8yLi8)
+[youtube link](https://youtu.be/64Zzr_8yLi8)
 
 ## Copyright
 Copyright 2016-, Scott Allen([scottallen.ws](http://scottallen.ws)).  
